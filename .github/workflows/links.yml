@@ -1,0 +1,26 @@
+name: Check links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 8 1 * *"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,204,206,429
+            README.md CATALOG.md data/converters.json CONTRIBUTING.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
