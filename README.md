@@ -38,6 +38,7 @@ Open the **[full converter catalog](CATALOG.md)** to browse working category tab
 The canonical, machine-readable index lives in [`data/converters.json`](data/converters.json). A conversion-pair index will be generated from this data as coverage grows.
 
 ## Converters
+- [File Converter](https://fileontap.com/) - Free browser-local image and PDF converter; files stay on the device and no account is required.
 
 | Converter | Type | Best for | Free option | Local processing | Open source | Batch |
 |---|---|---|---:|---:|---:|---:|
