@@ -450,6 +450,24 @@
       "watermark": "no",
       "notes": "Adds a searchable OCR text layer to scanned PDFs while preserving the original page images where possible.",
       "last_verified": "2026-08-19"
+    },
+    {
+      "name": "video2mp4 Local MP4 Converter",
+      "url": "https://video2mp4.com/convert-video-to-mp4/",
+      "documentation_url": "https://video2mp4.com/convert-video-to-mp4/",
+      "types": ["web-app"],
+      "categories": ["video"],
+      "inputs": ["avi", "mkv", "mov", "mp4", "webm"],
+      "outputs": ["mp4"],
+      "platforms": ["browser"],
+      "free": "yes",
+      "account_required": "no",
+      "local_processing": "yes",
+      "open_source": "no",
+      "batch": "no",
+      "watermark": "no",
+      "notes": "Remuxes only MP4-compatible audio and video streams without re-encoding; incompatible codecs fail. Input limit is 2 GB, subject to browser memory.",
+      "last_verified": "2026-10-17"
     }
   ]
 }
