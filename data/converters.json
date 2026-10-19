@@ -450,6 +450,24 @@
       "watermark": "no",
       "notes": "Adds a searchable OCR text layer to scanned PDFs while preserving the original page images where possible.",
       "last_verified": "2026-08-19"
+    },
+    {
+      "name": "ConvertirAudioAmp3",
+      "url": "https://convertiraudioamp3.com/",
+      "documentation_url": "https://convertiraudioamp3.com/en/support/convert-audio-to-mp3",
+      "types": ["web-app"],
+      "categories": ["audio"],
+      "inputs": ["3gp", "aac", "amr", "m4a", "ogg", "opus", "wav"],
+      "outputs": ["mp3"],
+      "platforms": ["browser"],
+      "free": "yes",
+      "account_required": "no",
+      "local_processing": "no",
+      "open_source": "no",
+      "batch": "unknown",
+      "watermark": "unknown",
+      "notes": "Free, no-signup server-side MP3 conversion of mobile voice recordings and audio files. Upload size is limited by server configuration.",
+      "last_verified": "2026-10-19"
     }
   ]
 }
