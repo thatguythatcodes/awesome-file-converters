@@ -450,6 +450,34 @@
       "watermark": "no",
       "notes": "Adds a searchable OCR text layer to scanned PDFs while preserving the original page images where possible.",
       "last_verified": "2026-08-19"
+    },
+    {
+      "name": "FlowPick Audio Converter",
+      "url": "https://flowpick.net/tools/audio-converter",
+      "documentation_url": "https://flowpick.net/tools/audio-converter",
+      "types": [
+        "web-app"
+      ],
+      "categories": [
+        "audio"
+      ],
+      "inputs": [
+        "wav"
+      ],
+      "outputs": [
+        "mp3"
+      ],
+      "platforms": [
+        "browser"
+      ],
+      "free": "yes",
+      "account_required": "no",
+      "local_processing": "yes",
+      "open_source": "unknown",
+      "batch": "no",
+      "watermark": "unknown",
+      "notes": "Verified WAV to MP3 conversion in a signed-out browser using the public two-second FlowPick tone sample; the downloaded MP3 preview reported about 2.06 seconds. This record lists only the tested direction. The product documents browser-local processing; codec support and practical file sizes depend on the device and browser. The interface processes one file at a time. No claim of unlimited usage or open-source web conversion code is made.",
+      "last_verified": "2026-10-21"
     }
   ]
 }
