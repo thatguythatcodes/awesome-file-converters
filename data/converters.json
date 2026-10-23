@@ -450,6 +450,24 @@
       "watermark": "no",
       "notes": "Adds a searchable OCR text layer to scanned PDFs while preserving the original page images where possible.",
       "last_verified": "2026-08-19"
+    },
+    {
+      "name": "KarmaDisk",
+      "url": "https://www.karmadisk.eu/",
+      "documentation_url": "https://www.karmadisk.eu/how-photo-cleanup-works/",
+      "types": ["desktop"],
+      "categories": ["image"],
+      "inputs": ["jpeg", "jpg"],
+      "outputs": ["jxl"],
+      "platforms": ["macos"],
+      "free": "limited",
+      "account_required": "no",
+      "local_processing": "yes",
+      "open_source": "no",
+      "batch": "unknown",
+      "watermark": "unknown",
+      "notes": "macOS 15+. Separate JPEG-to-JPEG XL workflow verifies reconstruction of the complete original JPEG byte for byte. Photo processing has a 50-photo lifetime sample; unlimited photo processing requires an optional one-time purchase. No KarmaDisk account; distributed through the Mac App Store. JPEG XL compatibility varies. Batch and watermark fields are not independently established here.",
+      "last_verified": "2026-10-23"
     }
   ]
 }
