@@ -450,6 +450,24 @@
       "watermark": "no",
       "notes": "Adds a searchable OCR text layer to scanned PDFs while preserving the original page images where possible.",
       "last_verified": "2026-08-19"
+    },
+    {
+      "name": "FormatHopper",
+      "url": "https://formathopper.online/",
+      "documentation_url": "https://formathopper.online/converters/",
+      "types": ["web-app"],
+      "categories": ["audio", "data", "document", "image"],
+      "inputs": ["csv", "jpg", "mp3", "pdf", "png", "tsv", "xlsx"],
+      "outputs": ["csv", "jpg", "json", "pdf", "png", "tsv", "wav"],
+      "platforms": ["browser"],
+      "free": "yes",
+      "account_required": "no",
+      "local_processing": "yes",
+      "open_source": "no",
+      "batch": "yes",
+      "watermark": "no",
+      "notes": "Browser conversion for images, PDFs, audio and data. Selected image and PDF tools accept batches. The linked directory lists supported pairs and per-tool limits.",
+      "last_verified": "2026-11-19"
     }
   ]
 }
